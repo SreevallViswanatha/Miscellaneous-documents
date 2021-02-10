@@ -1,0 +1,87 @@
+#include <stdio.h>
+#include <stdlib.h>
+//A 21 matchstick game.
+int main()
+{
+
+    int m, n, g, h;
+    printf("There are 21 matchsticks.you can only pick from 1 to 4, inclusive. How many matchsticks do you want to pick up: ");
+    scanf("%d"  , &m);
+
+    if(m==4)
+    {
+        printf("The computer picked up 1 matchstick. There are 16 matchsticks. How many matchsticks do you want to pick up: ");
+        scanf("%d"  , &n);
+    }
+    else if(m==3)
+    {
+        printf("The computer picked up 2 matchsticks. There are 16 matchsticks. How many matchsticks do you want to pick up: ");
+        scanf("%d" , &n);
+    }
+    else if(m==2)
+    {
+        printf("The computer picked up 3 matchsticks. There are 16 matchsticks. How many matchsticks do you want to pick up: ");
+        scanf("%d" , &n);
+    }
+    else if(m==1)
+    {
+        printf("The computer picked up 4 matchsticks. There are 16 matchsticks. How many matchsticks do you want to pick up: ");
+        scanf("%d" , &m);
+    }
+    if(n==4)
+    {
+        printf("The computer picked up 1 matchstick. There are 11 matchsticks. How many matchsticks do you want to pick up: ");
+        scanf("%d"  , &g);
+    }
+    else if(n==3)
+    {
+        printf("The computer picked up 2 matchsticks. There are 11 matchsticks. How many matchsticks do you want to pick up: ");
+        scanf("%d" , &g);
+    }
+    else if(n==2)
+    {
+        printf("The computer picked up 3 matchsticks. There are 11 matchsticks. How many matchsticks do you want to pick up: ");
+        scanf("%d" , &g);
+    }
+    else if(n==1)
+    {
+        printf("The computer picked up 4 matchsticks. There are 11 matchsticks. How many matchsticks do you want to pick up: ");
+        scanf("%d" , &g);
+    }
+    if(g==4)
+    {
+        printf("The computer picked up 1 matchstick. There are 6 matchsticks. How many matchsticks do you want to pick up: ");
+        scanf("%d"  , &h);
+    }
+    else if(g==3)
+    {
+        printf("The computer picked up 2 matchsticks. There are 6 matchsticks. How many matchsticks do you want to pick up: ");
+        scanf("%d" , &h);
+    }
+    else if(g==2)
+    {
+        printf("The computer picked up 3 matchsticks. There are 6 matchsticks. How many matchsticks do you want to pick up: ");
+        scanf("%d" , &h);
+    }
+    else if(g==1)
+    {
+        printf("The computer picked up 4 matchsticks. There are 6 matchsticks. How many matchsticks do you want to pick up: ");
+        scanf("%d" , &h);
+    }
+    if(h==4)
+    {
+        printf("The computer picked up 1 matchstick. There is 1 matchstick. You lose. ");
+    }
+    else if(h==3)
+    {
+        printf("The computer picked up 2 matchsticks. There is 1 matchstick. You lose. ");
+    }
+    else if(h==2)
+    {
+        printf("The computer picked up 3 matchsticks. There is 1 matchstick. You lose. ");
+    }
+    else if(h==1)
+    {
+        printf("The computer picked up 4 matchsticks. There is 1 matchstick. You lose. ");
+    }
+}
